@@ -8,7 +8,7 @@ Author URI: http://www.remoideas.com
 Version: 1.1.0
 License: Reservados
 Text Domain: RemoIdeas.com
-Domain Path: Domain Path
+Domain Path: remo-ideas
 GitHub Plugin URI: https://github.com/remoideas/remo-inputs
 GitHub Branch:     master
 */
