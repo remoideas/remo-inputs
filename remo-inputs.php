@@ -5,7 +5,7 @@ Description: Inputs para crear fomularios personalizados en Sitios.
 Plugin URI: http://www.remoideas.com
 Author: Antonio Reyes
 Author URI: http://www.remoideas.com
-Version: 1.7
+Version: 1.0.1
 License: Reservados
 Text Domain: RemoIdeas.com
 Domain Path: Domain Path
