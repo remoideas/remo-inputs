@@ -1,0 +1,327 @@
+/**
+ * @Name Style para Fields.
+ */
+
+
+/** 
+ * Framewordk
+ */
+.font-normal {
+	font-weight: normal;
+}
+
+
+.divisor {
+	height: 1px; 
+	background-color: #dfdfdf;
+	width:100%;
+}
+
+
+/**
+ * Etiquetas
+ */
+textarea {
+	width: 100%;
+}
+
+input:disabled
+{
+	background:#F2F2F2;
+	cursor: not-allowed;
+}
+
+/**
+ * Fix
+ */
+
+//Arregla todo lo que desacomoda el box-content.
+ .wp-editor-wrap {
+	*,
+	*:before,
+	*:after {
+	  	-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+	}
+ }
+
+
+ .dd-container {
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+ }
+
+
+/**
+ * Bootstrap WP
+ */
+
+.postbox-container {
+
+	.inside{
+		//margin: 0;
+		//padding: 0;
+	}
+
+	.form-block {
+		padding-top: 10px; 
+
+		label {
+			display:block; 
+			font-weight:normal;
+		}
+
+		input {
+			width:100%;
+		}
+	}
+
+	 .btn-remo {
+		background-color: #d3d3d3;
+
+		&.active {
+			background-color: #bababa;
+		}
+	 }
+
+}
+
+
+/**
+ * Datos Negocio - Custom MetaBox
+ */
+#datos-negocio {
+	
+	.hndle { //H3 cabecera
+		select {
+			font-size: 13px;
+			font-family: sans-serif;
+			height: 20px;
+
+
+			option {
+
+			}
+		}
+	}
+
+	.inside{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+#datos-negocio {
+	
+	.hndle { //H3 cabecera
+		select {
+			font-size: 13px;
+			font-family: sans-serif;
+			height: 20px;
+
+
+			option {
+
+			}
+		}
+	}
+
+	.inside{
+		margin: 0;
+		padding: 0;
+		background-color: #f1f1f1;
+	}
+}
+
+
+
+/**
+ * Tabs Datos-Generales
+ */
+
+		.inside {
+
+			font-size: 13px;
+
+			.tabs-content {
+			position: relative;
+			background-color: #f1f1f1;
+
+				.tabs {
+					position: relative;
+					padding: 0;
+					margin: 0;
+
+					.nav {
+						overflow: hidden;
+
+						li {
+							margin:0;
+							float: none;
+							a{
+								border-bottom: 1px solid #dfdfdf;
+								border-radius: 0;
+								color: #5b5b5b;
+								
+								&:hover {
+									border-right: 1px solid #dfdfdf;
+								}
+							}
+
+						}
+
+						li.active {
+							a {
+								background-color: #ffffff;
+								color: #5b5b5b;
+
+								&:hover {
+									border-right: none;
+								}
+							}
+						}
+					}
+
+				}
+
+				.tab {
+					margin: 0;
+					padding: 0;
+					min-height: 300px;
+					background-color: #ffffff;
+
+					.form-block {
+						padding-top: 10px; 
+
+						label {
+							display:block; 
+							font-weight:normal;
+						}
+
+						input {
+							width:100%;
+						}
+					}
+
+					.divisor {
+						height: 1px; 
+						background-color: #dfdfdf;
+						width:100%;
+					}
+				}
+
+			}
+
+			.back-tabs {
+				position: absolute;
+				border-right: 1px solid #dfdfdf;
+				height: 100%;
+				width: 16.666666666666664%;
+			}
+		}
+
+
+
+/**
+ * Descripci贸n del Negocio
+ */
+#descripcion-negocio {
+	background-color: white;
+	background-image: none;
+	
+}
+
+/**
+ * Repeat Elements
+ */
+
+.head-repeat-element {
+	text-align: right;
+	padding: 5px 10px;
+
+	a {
+		margin-left: 10px;
+	}
+}
+
+.content-repeat-elements {
+	padding: 10px;
+
+	.repeat-element {
+		margin-bottom: 10px;
+
+		.top-repeat-element {
+			background-color: #f1f1f1;
+			padding: 5px;
+			line-height: 28px;
+			border-top: 1px solid #dfdfdf;
+			border-left: 1px solid #dfdfdf;
+			border-right: 1px solid #dfdfdf;
+			cursor: move;
+
+			.title-repeat-element{
+				cursor: pointer;
+			}
+
+			button {
+				float: right;
+			}
+		}
+
+		.main-repeat-element {
+			padding: 5px;
+			background-color: #fbfbfb;
+			border-bottom: 1px solid #dfdfdf;
+			border-left: 1px solid #dfdfdf;
+			border-right: 1px solid #dfdfdf;
+		}
+	}
+}
+
+.footer-repeat-element {
+	padding: 5px 10px;
+	text-align: right;
+}
+
+
+/**
+ * Media CSS Tablets
+ */
+@media (max-width: 992px) { 
+
+ #poststuff {
+
+	.postbox {
+			.inside {
+				.tabs-content {
+					.tabs {
+						.nav {
+							li {
+								float: left; //Se va a poner solo en Responsive. 
+
+								a{
+									border-right: 1px solid #dfdfdf;
+									border-bottom: none;
+
+									span {
+										display: none;
+									}
+								}
+							}
+
+							li.active {
+								a {
+									border-right: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

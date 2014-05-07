@@ -1,0 +1,209 @@
+/**
+ * @Name Style para Fields.
+ */
+/** 
+ * Framewordk
+ */
+.font-normal {
+  font-weight: normal;
+}
+.divisor {
+  height: 1px;
+  background-color: #dfdfdf;
+  width: 100%;
+}
+/**
+ * Etiquetas
+ */
+textarea {
+  width: 100%;
+}
+input:disabled {
+  background: #F2F2F2;
+  cursor: not-allowed;
+}
+/**
+ * Fix
+ */
+.wp-editor-wrap *,
+.wp-editor-wrap *:before,
+.wp-editor-wrap *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.dd-container a:hover {
+  text-decoration: none;
+}
+/**
+ * Bootstrap WP
+ */
+.postbox-container .form-block {
+  padding-top: 10px;
+}
+.postbox-container .form-block label {
+  display: block;
+  font-weight: normal;
+}
+.postbox-container .form-block input {
+  width: 100%;
+}
+.postbox-container .btn-remo {
+  background-color: #d3d3d3;
+}
+.postbox-container .btn-remo.active {
+  background-color: #bababa;
+}
+/**
+ * Datos Negocio - Custom MetaBox
+ */
+#datos-negocio .hndle select {
+  font-size: 13px;
+  font-family: sans-serif;
+  height: 20px;
+}
+#datos-negocio .inside {
+  margin: 0;
+  padding: 0;
+}
+#datos-negocio .hndle select {
+  font-size: 13px;
+  font-family: sans-serif;
+  height: 20px;
+}
+#datos-negocio .inside {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+/**
+ * Tabs Datos-Generales
+ */
+.inside {
+  font-size: 13px;
+}
+.inside .tabs-content {
+  position: relative;
+  background-color: #f1f1f1;
+}
+.inside .tabs-content .tabs {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.inside .tabs-content .tabs .nav {
+  overflow: hidden;
+}
+.inside .tabs-content .tabs .nav li {
+  margin: 0;
+  float: none;
+}
+.inside .tabs-content .tabs .nav li a {
+  border-bottom: 1px solid #dfdfdf;
+  border-radius: 0;
+  color: #5b5b5b;
+}
+.inside .tabs-content .tabs .nav li a:hover {
+  border-right: 1px solid #dfdfdf;
+}
+.inside .tabs-content .tabs .nav li.active a {
+  background-color: #ffffff;
+  color: #5b5b5b;
+}
+.inside .tabs-content .tabs .nav li.active a:hover {
+  border-right: none;
+}
+.inside .tabs-content .tab {
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+  background-color: #ffffff;
+}
+.inside .tabs-content .tab .form-block {
+  padding-top: 10px;
+}
+.inside .tabs-content .tab .form-block label {
+  display: block;
+  font-weight: normal;
+}
+.inside .tabs-content .tab .form-block input {
+  width: 100%;
+}
+.inside .tabs-content .tab .divisor {
+  height: 1px;
+  background-color: #dfdfdf;
+  width: 100%;
+}
+.inside .back-tabs {
+  position: absolute;
+  border-right: 1px solid #dfdfdf;
+  height: 100%;
+  width: 16.666666666666664%;
+}
+/**
+ * Descripci贸n del Negocio
+ */
+#descripcion-negocio {
+  background-color: white;
+  background-image: none;
+}
+/**
+ * Repeat Elements
+ */
+.head-repeat-element {
+  text-align: right;
+  padding: 5px 10px;
+}
+.head-repeat-element a {
+  margin-left: 10px;
+}
+.content-repeat-elements {
+  padding: 10px;
+}
+.content-repeat-elements .repeat-element {
+  margin-bottom: 10px;
+}
+.content-repeat-elements .repeat-element .top-repeat-element {
+  background-color: #f1f1f1;
+  padding: 5px;
+  line-height: 28px;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  cursor: move;
+}
+.content-repeat-elements .repeat-element .top-repeat-element .title-repeat-element {
+  cursor: pointer;
+}
+.content-repeat-elements .repeat-element .top-repeat-element button {
+  float: right;
+}
+.content-repeat-elements .repeat-element .main-repeat-element {
+  padding: 5px;
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+.footer-repeat-element {
+  padding: 5px 10px;
+  text-align: right;
+}
+/**
+ * Media CSS Tablets
+ */
+@media (max-width: 992px) {
+  #poststuff .postbox .inside .tabs-content .tabs .nav li {
+    float: left;
+  }
+  #poststuff .postbox .inside .tabs-content .tabs .nav li a {
+    border-right: 1px solid #dfdfdf;
+    border-bottom: none;
+  }
+  #poststuff .postbox .inside .tabs-content .tabs .nav li a span {
+    display: none;
+  }
+  #poststuff .postbox .inside .tabs-content .tabs .nav li.active a {
+    border-right: none;
+  }
+}
