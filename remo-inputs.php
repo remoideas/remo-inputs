@@ -9,6 +9,8 @@ Version: 1.7
 License: Reservados
 Text Domain: RemoIdeas.com
 Domain Path: Domain Path
+GitHub Plugin URI: https://github.com/remoideas/remo-inputs
+GitHub Branch:     master
 */
 
 include_once('updater.php');
